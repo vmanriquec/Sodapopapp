@@ -68,8 +68,7 @@ import java.util.List;
         viewHolder.almacen.setText("almacen: " + item.getAlmacenusuario());
         String p = item.getImagen();
 
-        jyfyufyjfjyfjhf
-       oreja
+
         Bitmap bitmap;
 
         Picasso.with(this).load(android_versions.get(i).getAndroid_image_url()).resize(120, 60).into(viewHolder.img_android);
