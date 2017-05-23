@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#CC000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d03a26</color>
+    <color name="primary_text_material_light">#d90011</color>
+    <color name="secondary_text_material_light">#eda0a7</color>
+    <color name="secondary_text_material_dark">#edbabe</color>
+    <color name="saffron">#f2cd86</color>
+    <color name="sienna">#eb6460</color>
+    <color name="green">#4affee</color>
+    <color name="purple">#7c57e4</color>
+    <color name="pink">#ff4284</color>
+    <color name="orange">#ff8c6a</color>
+    <color name="my_primary_light">#B3E5FC</color>
+    <color name="my_icons">#FFFFFF</color>
+    <color name="my_divider">#B6B6B6</color>
+</resources>
