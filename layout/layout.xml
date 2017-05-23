@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:weightSum="1"
+	android:configChanges="orientation">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:weightSum="1">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="141dp"
+			android:layout_height="fill_parent"
+			android:background="#bb0505">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewmesero"
+				android:textColor="#ffffe921"
+				android:background="@android:color/black"
+				android:hint="mesero"
+				android:textSize="15dp"
+				android:text="mesero"
+				android:textStyle="bold"
+				android:textAlignment="center"
+				android:textIsSelectable="true"/>
+
+			<Spinner
+				android:layout_width="fill_parent"
+				android:layout_height="20dp"
+				android:id="@+id/spinnermesas"
+				android:visibility="visible"
+				android:background="#ffffab04"
+				android:popupBackground="#ffffb10a"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewfechadehoy"
+				android:textColor="#ffffe921"
+				android:background="#ff000101"
+				android:layout_gravity="center_horizontal"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:text="Small Text"
+				android:id="@+id/textalmacen"
+				android:textSize="20dp"
+				android:layout_gravity="center_horizontal"
+				android:background="#bb0505"
+				android:textColor="#fefcfc"
+				android:textIsSelectable="true"/>
+
+		</LinearLayout>
+
+		<HorizontalScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|right"
+			android:background="#000000"
+			android:clickable="true">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/mipollo"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/migaseosa"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/micerveza"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/mihamburguesa"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/mitrago"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/miagua"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+										android:id="@+id/mihelado"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/mitorta"/>
+
+				<ImageView
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+
+					android:id="@+id/micombo"/>
+
+			</LinearLayout>
+
+		</HorizontalScrollView>
+
+	</LinearLayout>
+
+	<TabHost
+		android:layout_width="fill_parent"
+		android:layout_height="200dp"
+		android:id="@android:id/tabhost">
+
+				</TabHost>
+
+</LinearLayout>
+

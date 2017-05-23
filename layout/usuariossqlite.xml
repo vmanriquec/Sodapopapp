@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_down">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nombreusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="nombre usuario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/claveusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="clave usuario"
+            android:inputType="textPersonName" />
+
+
+        <Spinner
+            android:id="@+id/spinneralmacenes"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/sqlitecargarimagen"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:text="Cargar" />
+
+            <ImageView
+                android:id="@+id/imagensqlite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sqliteinsertar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="registrar" />
+
+            <Button
+                android:id="@+id/sqlitever"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:text="ver" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textsqlite"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:text="TextView" />
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/reciclador"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:padding="3dp"
+            android:scrollbars="vertical" >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/sqliterefrescar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
