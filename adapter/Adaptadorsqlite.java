@@ -67,6 +67,8 @@ import java.util.List;
         viewHolder.clave.setText("clave: " + item.getClaveusuario());
         viewHolder.almacen.setText("almacen: " + item.getAlmacenusuario());
         String p = item.getImagen();
+
+        jyfyufyjfjyfjhf
        oreja
         Bitmap bitmap;
 
